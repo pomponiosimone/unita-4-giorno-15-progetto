@@ -1,0 +1,9 @@
+link https://drawsql.app/teams/a-1208/diagrams/primo
+spiegazione: Effettua: .
+
+Un utente può effettuare più prestiti.
+Un prestito è associato a un solo utente.
+
+
+Un prestito può avere un solo libro o una sola rivista.
+Un libro o una rivista possono essere prestati in vari prestiti.
