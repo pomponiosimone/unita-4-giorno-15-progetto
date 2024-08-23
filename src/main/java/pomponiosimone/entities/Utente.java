@@ -24,6 +24,9 @@ public class Utente {
     public Utente() {
     }
 
+    public Utente(String mario, String rossi, LocalDate of, String tess123) {
+    }
+
 
     public String getNumeroTessera() {
         return numeroTessera;

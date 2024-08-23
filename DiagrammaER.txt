@@ -1,9 +1,14 @@
 link https://drawsql.app/teams/a-1208/diagrams/primo
-spiegazione: Effettua: .
+spiegazione:
+
+Elemento padre - figli rivista e libro
 
 Un utente può effettuare più prestiti.
 Un prestito è associato a un solo utente.
 
 
-Un prestito può avere un solo libro o una sola rivista.
-Un libro o una rivista possono essere prestati in vari prestiti.
+Un prestito può avere un solo libro o una sola rivista (elemento)
+Un libro o una rivista (elemento) possono essere prestati in vari prestiti.
+
+quindi Prestito ha una relazione many-to-one sia con l'entità Utente che con l'entità Elemento.
+
